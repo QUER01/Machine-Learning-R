@@ -1,0 +1,11 @@
+---
+title: "Install Spark on R"
+output: html_document
+---
+
+```{r}
+install.packages("sparklyr")
+library(sparklyr)
+spark_install(version = "1.6.2")
+```
+
